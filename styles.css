@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
 }
 
+/* sidebar  */
 .sb {
   min-width: 40vw;
   background: url(/images/snow-landscape.jpg) no-repeat;
@@ -38,6 +39,7 @@ body {
   font-size: 4rem;
   color: white;
 }
+/* sidebar  */
 
 main {
   background-color: azure;
@@ -45,6 +47,7 @@ main {
   height: 100vh;
 }
 
+/* text above form */
 .text-container {
   margin: 180px 0 30px 60px;
   padding-right: 100px;
@@ -61,11 +64,17 @@ br {
   margin: 20px;
   display: block;
 }
+/* text above form  */
 
+/* form  */
 .form-container {
   margin: 70px 0 30px 0;
   padding: 20px 100px 20px 60px;
   box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.15);
+}
+
+.form-container p {
+  margin-bottom: 15px;
 }
 
 form {
@@ -77,7 +86,24 @@ form {
 
 input {
   width: 250px;
-  height: 30px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid rgb(0, 0, 0, 0.15);
+  font-size: 1.1rem;
+  padding-left: 10px;
+}
+
+/* remove blue background from autocomplete */
+input:-webkit-autofill {
+  box-shadow: none;
+  transition: background-color 500000s ease-in-out 0s;
+}
+
+input:focus {
+  border: 1px solid rgb(22, 104, 212);
+  outline: none;
+  box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.4);
+
 }
 
 .input-field {
@@ -85,6 +111,14 @@ input {
   flex-direction: column;
 }
 
+.error {
+  border: 1px solid red;
+  outline: none;
+}
+
+/* form */
+
+/* below form */
 .btm-text {
   margin-left: 60px;
 }
@@ -113,4 +147,4 @@ input {
   color: #113f46;
   font-weight: bold;
 }
-
+/* below form */
