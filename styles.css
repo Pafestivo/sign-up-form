@@ -39,3 +39,29 @@ body {
   color: white;
 }
 
+main {
+  background-color: azure;
+}
+
+.main-container {
+  margin: 180px 100px 30px 60px;
+}
+
+.bold {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+br {
+  content: "";
+  margin: 20px;
+  display: block;
+}
+
+.form-container {
+  margin: 35px 0;
+  padding: 20px 100px 20px 60px;
+  box-shadow: 5px 8px 20px #000;
+  background-color: rgb(247, 255, 255);
+}
+
