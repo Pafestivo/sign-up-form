@@ -16,7 +16,7 @@ body {
 /* sidebar  */
 .sb {
   min-width: 40vw;
-  background: url(/images/snow-landscape.jpg) no-repeat;
+  background: url(./images/snow-landscape.jpg) no-repeat;
   background-size: cover;
 }
 
