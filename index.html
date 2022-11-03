@@ -19,29 +19,48 @@
     </div> <!-- /sb -->
 
     <main>
-      <div class="main-container">
+      <div class="text-container">
         <p class="bold">This is not a real online service! You know you need something just like this in your life to help you realize your deepest dreams.<br>
         You <em>know</em> you want to.</p>
-      </div> <!-- /main-container -->
+      </div> <!-- /text-container -->
         <div class="form-container">
           <p class="bold">Let's do this!</p>
-          <form action="#" method="post">
-            <label for="f-name">First Name</label>
-            <input type="text" id="f-name">
-            <label for="l-name">Last Name</label>
-            <input type="text" id="l-name">
-            <label for="email">Email</label>
-            <input type="email" id="email">
-            <label for="number">Mobile Number</label>
-            <input type="tel" id="number">
-            <label for="pass">Password</label>
-            <input type="password" minlength="6" id="pass">
-            <label for="conf-pass">Confirm Password</label>
-            <input type="password" minlength="6" id="conf-pass">
+          <form action="" method="post" id="register">
+
+            <div class="input-field">
+              <label for="f-name">First Name</label>
+              <input type="text" id="f-name" name="first-name" required>
+            </div> <!-- /input-field-->
+
+            <div class="input-field">
+              <label for="l-name">Last Name</label>
+              <input type="text" id="l-name" name="last-name" required>
+            </div> <!-- /input-field-->
+
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div> <!-- /input-field-->
+
+            <div class="input-field">
+              <label for="number">Mobile Number</label>
+              <input type="tel" id="number" name="mobile-number" required>
+            </div> <!-- /input-field-->
+
+            <div class="input-field">
+              <label for="pass">Password</label>
+              <input type="password" minlength="6" id="pass" name="password" required>
+            </div> <!-- /input-field-->
+
+            <div class="input-field">
+              <label for="conf-pass">Confirm Password</label>
+              <input type="password" minlength="6" id="conf-pass" name="password" required>
+            </div> <!-- /input-field-->
+
           </form>
         </div> <!-- /form-container-->
-        <div class="main-container">
-          <button>Create Account</button>
+        <div class="btm-text">
+          <input class="btn" type="submit" form="register" value="Create Account">
           <p>Already have an account? <a href="#">Log in</a></p>
         </div> <!-- /main-container-->
     </main>
