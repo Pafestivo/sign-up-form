@@ -148,3 +148,60 @@ input:focus {
   font-weight: bold;
 }
 /* below form */
+
+/* media queries */
+@media only screen and (max-width: 1080px) {
+
+  body {
+    background-color: azure;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .sb {
+    background: none;
+  }
+
+  .img-overlay {
+    position: static;
+    width: 100vw;
+  }
+
+  .text-container {
+    margin: 40px auto;
+    padding: 0;
+  }
+
+  .form-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .form-container p {
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+
+  form {
+    max-width: 550px;
+    margin: 0 auto;
+    column-gap: 30px;
+    padding-bottom: 45px;
+  }
+
+  .input-field {
+    align-items: center;
+  }
+
+  .btm-text {
+    width: max-content;
+    margin: 30px auto 0 auto;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
