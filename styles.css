@@ -205,3 +205,19 @@ input:focus {
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .text-container {
+    width: 300px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+  }
+
+  .btm-text {
+    padding-bottom: 20px;
+  }
+}
