@@ -116,6 +116,14 @@ input:focus {
   outline: none;
 }
 
+.error-match {
+  border: 1px solid red;
+  outline: none;
+}
+
+.error-msg {
+  color: red;
+}
 /* form */
 
 /* below form */
@@ -209,7 +217,7 @@ input:focus {
 @media only screen and (max-width: 700px) {
   .text-container {
     width: 300px;
-    font-size: 1rem;
+    font-size: 1rem;    
     text-align: center;
   }
 
